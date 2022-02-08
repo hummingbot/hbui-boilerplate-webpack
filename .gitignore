@@ -6,3 +6,4 @@ node_modules
 updates_config/github_auth.json
 tailwind.config.js
 src/hb_ui/
+tokens/
