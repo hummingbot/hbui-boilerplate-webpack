@@ -3,3 +3,4 @@ dist
 node_modules
 .eslintcache
 .DS_Store
+updates_config/github_auth.json
