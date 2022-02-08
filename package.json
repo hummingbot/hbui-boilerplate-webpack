@@ -6,7 +6,7 @@
   },
   "scripts": {
     "start": "parcel index.html --open",
-    "update": "node ./node_modules/github-files-fetcher --file='./update_config/github_download.json' --url='https://github.com/CoinAlpha/dsm/blob/master/tailwind.config.js' --out='./' && node ./node_modules/github-files-fetcher --file='./update_config/github_download.json' --url='https://github.com/CoinAlpha/dsm/tree/master/src/hb_ui' --out='./src'",
+    "update": "node ./node_modules/github-files-fetcher --file='./updates_config/github_auth.json' --url='https://github.com/CoinAlpha/dsm/blob/master/tailwind.config.js' --out='./' && node ./node_modules/github-files-fetcher --file='./updates_config/github_auth.json' --url='https://github.com/CoinAlpha/dsm/tree/master/src/hb_ui' --out='./src'",
     "build": "parcel build index.html"
   },
   "dependencies": {
