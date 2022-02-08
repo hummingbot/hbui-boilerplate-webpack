@@ -3,4 +3,3 @@ dist
 node_modules
 .eslintcache
 .DS_Store
-update_config/github_download.json
