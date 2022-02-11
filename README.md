@@ -1,4 +1,4 @@
-# Boiletplate project for CoinAlpha DSM
+# Boilerplate project for CoinAlpha DSM
 
 This is a boilerplate project to quickly start a React application using the CoinAlpha DSM files (elements, components, constants).
 
