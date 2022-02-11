@@ -29,16 +29,16 @@ You can do it in [this page](https://github.com/settings/tokens).
 
 ### 3. Create the configuration file
 
-Create a file named `gihub_auth.json` inside the folder `/updates_config/`
+Create a file named `github_auth.json` inside the folder `/updates_config/`
 
 ```
 projectroot/
 │
 └───updates_config/
-    └───gihub_auth.json
+    └───github_auth.json
 ```
 
-Copy the following code and paste it in the file `gihub_auth.json`. Then, replace `your-github-user-name` with your own username, and `your-token-here` with your personal access token. 
+Copy the following code and paste it in the file `github_auth.json`. Then, replace `your-github-user-name` with your own username, and `your-token-here` with your personal access token. 
 
 ```
 {
