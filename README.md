@@ -38,7 +38,6 @@ projectroot/
     └───gihub_auth.json
 ```
 
-&nbsp;
 Copy & paste the following code and replace `your-github-user-name` with your own username, and replace `your-token-here` with your personal access token. 
 
 ```
@@ -50,15 +49,18 @@ Copy & paste the following code and replace `your-github-user-name` with your ow
   "alwaysUseAuth" : true,
   "timeout" : 5000 
 }
+
 ```
 
 #### 4. Create the configuration file
 
 Using
+
 ```shell
 yarn
 ```
-or 
+or
+
 ```shell
 npm install
 ```
@@ -72,12 +74,13 @@ Run the command
 ```shell
 yarn update
 ```
+
 or
+
 ```shell
 npm run update
 ```
 
-&nbsp;
 This will download the following files and folders:
 
 ```
@@ -87,7 +90,7 @@ projectroot/
 └───src/hb_ui/
 └───tokens/
 ```
-&nbsp;
+
 NOTE: Do not make changes to these files. They will be ignored by the .gitignore configuration - all the updates to these files must be made in the original DSM repository and approved by the Design team.
 
 #### 6. Start project
@@ -95,12 +98,13 @@ NOTE: Do not make changes to these files. They will be ignored by the .gitignore
 ```shell
 yarn start
 ```
+
 or
+
 ```shell
 npm run start
 ```
 
-&nbsp;
 It will automatically open a new tab on
 http://localhost:1234
 
