@@ -2,15 +2,15 @@ import React from 'react'
 import { P } from '../../../hb_ui/elements/typography'
 import { PageRoot, ShortHero, MainContent } from '../../ui/elements/layout'
 
-function FAQ() {
+function DemoPage() {
   return (
     <PageRoot>
-      <ShortHero title="FAQ" />
+      <ShortHero title="Example page" subTitle="Inner example page" />
       <MainContent>
-        <P>Page under development!</P>
+        <P>Example page content</P>
       </MainContent>
     </PageRoot>
   )
 }
 
-export default FAQ
+export default DemoPage
