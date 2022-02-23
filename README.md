@@ -88,10 +88,12 @@ projectroot/
 │
 └───tailwind.config.js
 └───src/hb_ui/
-└───tokens/
+└───specify/
 ```
 
-NOTE: Do not make changes to these files. They will be ignored by the .gitignore configuration - all the updates to these files must be made in the original DSM repository and approved by the Design team.
+The "specify" folder will contain a tokens.js file with all the design tokens necessary for the design system to work. These tokens are used by the files `/tailwind.config.js`, `hb_ui/constants/colors/index.js` and `hb_ui/system/darkModeConfig.js`.
+
+NOTE: Do not make changes to these files. They will be ignored by the .gitignore configuration - all the updates to these files must be made in the original DSM repository and approved by the design team.
 
 ### 6. Start project
 
