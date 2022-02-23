@@ -6,7 +6,9 @@
   },
   "scripts": {
     "start": "parcel index.html --open",
-    "update": "node ./node_modules/github-files-fetcher --file='./updates_config/github_auth.json' --url='https://github.com/CoinAlpha/dsm/blob/master/tailwind.config.js' --out='./' && node ./node_modules/github-files-fetcher --file='./updates_config/github_auth.json' --url='https://github.com/CoinAlpha/dsm/tree/master/src/hb_ui' --out='./src' && node ./node_modules/github-files-fetcher --file='./updates_config/github_auth.json' --url='https://github.com/CoinAlpha/dsm/tree/master/tokens' --out='./'",
+    "update": "yarn cleanup && yarn pull_dsm",
+    "pull_dsm": "node ./node_modules/github-files-fetcher --file='./updates_config/github_auth.json' --url='https://github.com/CoinAlpha/dsm/blob/master/tailwind.config.js' --out='./' && node ./node_modules/github-files-fetcher --file='./updates_config/github_auth.json' --url='https://github.com/CoinAlpha/dsm/tree/master/src/hb_ui' --out='./src' && node ./node_modules/github-files-fetcher --file='./updates_config/github_auth.json' --url='https://github.com/CoinAlpha/dsm/tree/master/tokens' --out='./'",
+    "cleanup": "rm -f tailwind.config.js && rm -rf src/hb_ui && rm -rf tokens",
     "build": "parcel build index.html"
   },
   "dependencies": {
