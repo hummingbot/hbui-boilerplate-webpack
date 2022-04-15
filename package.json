@@ -17,8 +17,8 @@
     "@emotion/styled": "^11.1.5",
     "parcel-plugin-static-files-copy": "^2.6.0",
     "prop-types": "^15.7.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^16 || ^17 || ^18",
+    "react-dom": "^16 || ^17 || ^18",
     "react-router-dom": "^6.0.2",
     "twin.macro": "^2.5.0"
   },

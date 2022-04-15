@@ -1,11 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import { createRoot } from 'react-dom/client'
 import App from './App'
-import { ThemeProvider } from './styles'
+import { ThemeProvider } from './hb_ui/system'
 
-ReactDOM.render(
+const container = document.getElementById('root')
+const root = createRoot(container);
+root.render(
   <ThemeProvider>
     <App />
-  </ThemeProvider>,
-  document.getElementById('root'),
+  </ThemeProvider>
 )
