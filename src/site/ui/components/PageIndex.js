@@ -1,6 +1,6 @@
 import React from 'react'
 import tw, { styled } from 'twin.macro'
-import { PSmall, LabelMicro } from '../../../hb_ui/elements/typography'
+import { PSmall, LabelMicro } from '@hummingbot/hbui/elements/typography'
 
 const PageIndex = ({ title, items }) => {
   return (

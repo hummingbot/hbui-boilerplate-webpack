@@ -1,5 +1,5 @@
 import React from 'react'
-import { Body } from '../../../hb_ui/elements/typography'
+import { Body } from '@hummingbot/hbui/elements/typography'
 import { PageRoot, ShortHero, MainContent } from '../../ui/elements/layout'
 
 function Home() {

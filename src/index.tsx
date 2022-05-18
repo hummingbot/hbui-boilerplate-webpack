@@ -1,6 +1,6 @@
 import { createRoot } from 'react-dom/client'
 import App from './App'
-import { ThemeProvider } from './hb_ui/system'
+import { ThemeProvider } from '@hummingbot/hbui/system/ThemeContext'
 
 const container = document.getElementById('root')
 const root = createRoot(container);
