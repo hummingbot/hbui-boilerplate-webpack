@@ -1,10 +1,12 @@
 import React from 'react'
 import { Body } from '@hummingbot/hbui/elements/typography'
 import { PageRoot, ShortHero, MainContent } from '../../ui/elements/layout'
+import Navigation from '../../ui/components/Navigation'
 
 function Home() {
   return (
     <PageRoot>
+      <Navigation />
       <ShortHero title="Home" subTitle="Design system home" />
       <MainContent>
         <Body>Page under development!</Body>
