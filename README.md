@@ -1,42 +1,37 @@
-# Boilerplate project for CoinAlpha DSM
+## HBUI Boilerplate for Create-React-App Projects
 
-This is a boilerplate project to quickly start a React application using the CoinAlpha DSM files (elements, components, constants).
+This is a ready-to-use [Create-React-App](https://create-react-app.dev/docs/getting-started) project with full integration of the [HBUI Hummingbot Design System](https://hbui.netlify.app/)
 
-## Usage
+### Instructions
 
-### 1. Checkout the project to your computer
+Clone the project
 
-```shell
-git clone git@github.com:CoinAlpha/dsm_boilerplate.git your-desired-folder-name
+```bash
+git clone git@github.com:CoinAlpha/hbui-boilerplate-cra.git chosen-folder-name
+cd chosen-folder-name
 ```
 
-### 2. Install dependencies
+Install the dependencies
 
-Using
-
-```shell
+```bash
 yarn
 ```
-or
 
-```shell
-npm install
-```
+Start up
 
-### 3. Start project
-
-```shell
+```bash
 yarn start
 ```
-
-or
-
-```shell
-npm run start
-```
-
 It will automatically open a new tab on
 http://localhost:8080
 
 
----
+### References
+
+[CRA Documentation](https://create-react-app.dev/docs/getting-started)
+
+[HBUI Hummingbot Design System](https://hbui.netlify.app/)
+
+[TailwindCSS Documentation](https://tailwindcss.com/docs)
+
+TailwindCSS for React: [twin.macro](https://github.com/ben-rogerson/twin.macro)

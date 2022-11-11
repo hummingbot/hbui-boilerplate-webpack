@@ -12,7 +12,7 @@
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "^7.17.3",
     "@babel/preset-env": "^7.16.11",
-    "@hummingbot/hbui": "^1.4.0",
+    "@hummingbot/hbui": "^1.5.31",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
     "file-loader": "^6.2.0",
