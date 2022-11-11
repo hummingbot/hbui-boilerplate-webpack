@@ -1,74 +1,36 @@
 import React from 'react'
-import { Body } from '@hummingbot/hbui/elements/typography'
-import { PageRoot, ShortHero, MainContent } from '../../ui/elements/layout'
 import Navigation from '../../ui/components/Navigation'
+import { Link } from 'react-router-dom'
+import { PageRoot, Section, Container, Window } from '@hummingbot/hbui/elements/layout'
+import HeroBlock from '@hummingbot/hbui/components/hero/Hero'
+import { H1, H5, P } from '@hummingbot/hbui/elements/typography'
 
 function Home() {
   return (
     <PageRoot>
       <Navigation />
-      <ShortHero title="Home" subTitle="Design system home" />
-      <MainContent>
-        <Body>Page under development!</Body>
-        <br />
-        <Body>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-          voluptas saepe sit qui, veniam, distinctio quos suscipit provident
-          dolorum tempore officia eaque, delectus reiciendis. Ad odio quam ullam
-          nostrum nisi. Donec sed odio dui. Aenean eu leo quam. Pellentesque
-          ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget
-          urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel
-          scelerisque nisl consectetur et. Duis mollis, est non commodo luctus,
-          nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed
-          odio dui. Morbi leo risus, porta ac consectetur ac, vestibulum at
-          eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-          venenatis vestibulum. Aenean eu leo quam. Pellentesque ornare sem
-          lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed
-          consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at
-          eros. Aenean lacinia bibendum nulla sed consectetur. Sed posuere
-          consectetur est at lobortis. Donec sed odio dui. Vestibulum id ligula
-          porta felis euismod semper. Integer posuere erat a ante venenatis
-          dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis
-          euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam
-          porta sem malesuada magna mollis euismod.
-        </Body>
-        <Body>
-          Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue
-          laoreet rutrum faucibus dolor auctor. Fusce dapibus, tellus ac cursus
-          commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit
-          amet risus. Cras mattis consectetur purus sit amet fermentum. Cras
-          mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Enim accusantium ut voluptatibus quasi
-          reiciendis sunt, unde similique suscipit libero. Laudantium optio
-          corrupti voluptates dicta dolores fugit aspernatur eius excepturi
-          placeat!
-        </Body>
-        <Body>
-          Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
-          vestibulum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-          venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur.
-          Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean
-          lacinia bibendum nulla sed consectetur. Sed posuere consectetur est at
-          lobortis. Donec sed odio dui. Vestibulum id ligula porta felis euismod
-          semper. Integer posuere erat a ante venenatis dapibus posuere velit
-          aliquet. Etiam porta sem malesuada magna mollis euismod. Nullam id
-          dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada
-          magna mollis euismod.
-        </Body>
-        <Body>
-          Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue
-          laoreet rutrum faucibus dolor auctor. Fusce dapibus, tellus ac cursus
-          commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit
-          amet risus. Cras mattis consectetur purus sit amet fermentum. Cras
-          mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Enim accusantium ut voluptatibus quasi
-          reiciendis sunt, unde similique suscipit libero. Laudantium optio
-          corrupti voluptates dicta dolores fugit aspernatur eius excepturi
-          placeat!
-        </Body>
-      </MainContent>
+      <HeroBlock containerVariant='large' tw='bg-window border-b border-body'>
+        <H1 tw='leading-none'>Welcome</H1>
+        <br/>
+        <P>This is the HBUI Create-React-App Boilerplate</P>
+      </HeroBlock>
+      <Container variant='large'>
+        <br/>
+        <br/>
+        <br/>
+        <Window>
+          <H5>Tips</H5>
+          <br/>
+          <P>This is a dark+light mode enabled project. Try clicking the sun/moon switcher in the navigation to try it out!</P>
+          <br/>
+          <P>Visit the <Link to='instructions'>Instructions</Link> page to learn how to get started!</P>
+        </Window>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+      </Container>
     </PageRoot>
   )
 }

@@ -5,10 +5,10 @@ import NavBar from '@hummingbot/hbui/components/navigation/NavBar'
 import { Link } from 'react-router-dom'
 
 const siteNameA = 'Hummingbot'
-const siteNameB = 'Boilerplate'
+const siteNameB = 'CRA Boilerplate'
 const linksRight = [
   { url: "/", label: "Home" },
-  { url: "/demo-page", label: "Demo page" },
+  { url: "/instructions", label: "Instructions" },
 ]
 
 function Navigation({disableBreakcrumbs}) {
@@ -21,6 +21,8 @@ function Navigation({disableBreakcrumbs}) {
         siteNameB={siteNameB}
         linksRight={linksRight}
         linkClass={Link}
+        containerVariant='large'
+        position='relative'
       />
     </div>
   )

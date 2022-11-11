@@ -7,7 +7,7 @@ import ScrollToTop from './site/system/ScrollToTop'
 
 // pages
 import Home from './site/pages/home'
-import DemoPage from './site/pages/demopage'
+import Instructions from './site/pages/instructions'
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/demo-page" element={<DemoPage />} />
+          <Route path="/instructions" element={<Instructions />} />
         </Routes>
       </BrowserRouter>
     </div>
