@@ -4,6 +4,8 @@ This is a ready-to-use [Create-React-App](https://create-react-app.dev/docs/gett
 
 See [Demo](https://hbui-boilerplate-cra.netlify.app/)
 
+Use this template if you need to build a SPA (single page app). If you are looking to build a standard website where SEO is important, consider using the [Gatsby](https://github.com/CoinAlpha/hbui-boilerplate-gatsby) boilerplate instead.
+
 ### Instructions
 
 Clone the project
@@ -19,7 +21,7 @@ Install the dependencies
 yarn
 ```
 
-Start up
+Start the app
 
 ```bash
 yarn start
