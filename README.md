@@ -2,6 +2,8 @@
 
 This is a ready-to-use [Create-React-App](https://create-react-app.dev/docs/getting-started) project with full integration of the [HBUI Hummingbot Design System](https://hbui.netlify.app/)
 
+See [Demo](https://hbui-boilerplate-cra.netlify.app/)
+
 ### Instructions
 
 Clone the project
@@ -22,6 +24,7 @@ Start up
 ```bash
 yarn start
 ```
+
 It will automatically open a new tab on
 http://localhost:8080
 
