@@ -6,7 +6,7 @@ import HeroBlock from '@hummingbot/hbui/components/hero/Hero'
 import { H1, H5, P } from '@hummingbot/hbui/elements/typography'
 import { Button } from '@hummingbot/hbui/elements/buttons'
 
-function DemoPage() {
+function InstructionsPage() {
   return (
     <PageRoot>
       <Navigation />
@@ -50,7 +50,7 @@ function DemoPage() {
   )
 }
 
-export default DemoPage
+export default InstructionsPage
 
 const code1 = String.raw`// replace some-folder-name with your desired folder name
 git clone git@github.com:CoinAlpha/hbui-boilerplate-cra.git some-folder-name`

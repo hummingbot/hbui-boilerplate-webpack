@@ -12,7 +12,7 @@ function Home() {
       <HeroBlock containerVariant='large' tw='bg-window border-b border-body'>
         <H1 tw='leading-none'>Welcome</H1>
         <br/>
-        <P>This is the HBUI Create-React-App Boilerplate</P>
+        <P>This is the HBUI Webpack Boilerplate</P>
       </HeroBlock>
       <Container variant='large'>
         <br/>

@@ -3,17 +3,17 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = function webpackConfig(env, args) {
   return {
-    entry: path.join(__dirname, 'src/index.tsx'),
+    entry: path.join(__dirname, 'src/index.js'),
     output: {
       filename: 'main.js',
       path: path.join(__dirname, 'dist'),
       publicPath: '/'
     },
-    resolve: { extensions: ['.tsx', '.js'] },
+    resolve: { extensions: ['.js'] },
     module: {
       rules: [
         {
-          test: /\.[jt]sx?$/,
+          test: /\.js$/i,
           exclude: /node_modules/,
           loader: require.resolve('babel-loader'),
           // See .babelrc for further babel config

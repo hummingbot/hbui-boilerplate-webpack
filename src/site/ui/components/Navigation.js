@@ -4,8 +4,8 @@ import { useLocation } from 'react-router-dom'
 import NavBar from '@hummingbot/hbui/components/navigation/NavBar'
 import { Link } from 'react-router-dom'
 
-const siteNameA = 'Hummingbot'
-const siteNameB = 'CRA Boilerplate'
+const siteNameA = 'HBUI'
+const siteNameB = 'Webpack Boilerplate'
 const linksRight = [
   { url: "/", label: "Home" },
   { url: "/instructions", label: "Instructions" },

@@ -1,6 +1,6 @@
-## HBUI Boilerplate for Create-React-App Projects
+## HBUI Webpack Boilerplate Typescript)
 
-This is a ready-to-use [Create-React-App](https://create-react-app.dev/docs/getting-started) project with full integration of the [HBUI Hummingbot Design System](https://hbui.netlify.app/)
+This is a ready-to-use Webpack project with full integration of the [HBUI Hummingbot Design System](https://hbui.netlify.app/)
 
 See [Demo](https://hbui-boilerplate-cra.netlify.app/)
 
@@ -11,7 +11,7 @@ Use this template if you need to build a SPA (single page app). If you are looki
 Clone the project
 
 ```bash
-git clone git@github.com:CoinAlpha/hbui-boilerplate-cra.git chosen-folder-name
+git clone git@github.com:CoinAlpha/hbui-boilerplate-webpack.git chosen-folder-name
 cd chosen-folder-name
 ```
 
@@ -32,8 +32,6 @@ http://localhost:8080
 
 
 ### References
-
-[CRA Documentation](https://create-react-app.dev/docs/getting-started)
 
 [HBUI Hummingbot Design System](https://hbui.netlify.app/)
 
