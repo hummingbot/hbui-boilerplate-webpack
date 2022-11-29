@@ -1,8 +1,10 @@
-## HBUI Webpack Boilerplate Typescript)
+## HBUI Webpack Boilerplate
 
 This is a ready-to-use Webpack project with full integration of the [HBUI Hummingbot Design System](https://hbui.netlify.app/)
 
-See [Demo](https://hbui-boilerplate-cra.netlify.app/)
+See [Demo](https://hbui-boilerplate-webpack.netlify.app/)
+
+Typescript version can be found [here](https://github.com/CoinAlpha/hbui-boilerplate-webpack-ts).
 
 Use this template if you need to build a SPA (single page app). If you are looking to build a standard website where SEO is important, consider using the [Gatsby](https://github.com/CoinAlpha/hbui-boilerplate-gatsby) boilerplate instead.
 
